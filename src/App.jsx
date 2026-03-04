@@ -10,7 +10,13 @@ import College from './College.jsx';
 import Student from './Student.jsx';
 import Wrapper from './Wrapper.jsx';
 import Checkbox from './Checkbox.jsx';
-
+import Reuse from './Reuse.jsx';
+import Useeffect from './Useeffect.jsx';
+import Hooks from './Hooks.jsx';
+import Use from './Use.jsx';
+import State from './State.jsx';
+// import usetoggle from './usetoggle.jsx';
+import Apps from './Components/Apps.jsx';
 
 function App(){
 // let name = "Akash";
@@ -36,6 +42,9 @@ function App(){
 // let colleges = ["IIT","NIT","PGC","vit"];
 
 // const[student,setstudent] = useState();
+
+//   const [value, toggleValue] = usetoggle(true);
+// console.log("value..",value);
 return (
   <>
  <div>
@@ -74,9 +83,40 @@ return (
    */}
    {/* <Student/> */}
    {/* <Checkbox/> */}
-   <Reuse />
-  <h1>App jsx component</h1>
+   
+  {/* <h1 className='color-red-500, text-center font-bold'>App jsx component</h1> */}
+     {/* <Button>Click Me</Button> */}
+   
+ 
 
+ {/* <Reuse /> */}
+ {/* <Useeffect /> */}
+ {/* <Hooks /> */}
+ {/* <Use /> */}
+ {/* <State /> */}
+ <Apps />
+
+ {/* <h1>App jsx component</h1> */}
+
+        {/* <button onClick={() => toggleValue()}>
+          Toggle Heading
+        </button>
+        <br />
+
+        <button onClick={() => toggleValue(false)}>
+          Hide Heading
+        </button>
+        <br />
+
+        <button onClick={() => toggleValue(true)}>
+          Show Heading
+        </button>
+        <br />
+
+        <h1>Custom Hook</h1>
+
+        {value && <h2>Custom hook in React</h2>} */}
+ 
   {/* <h4>{userkey}</h4> */}
  </div>
 </>
