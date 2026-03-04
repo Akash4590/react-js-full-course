@@ -15,8 +15,13 @@ import Useeffect from './Useeffect.jsx';
 import Hooks from './Hooks.jsx';
 import Use from './Use.jsx';
 import State from './State.jsx';
+<<<<<<< HEAD
 // import usetoggle from './usetoggle.jsx';
 import Apps from './Components/Apps.jsx';
+=======
+import usetoggle from './usetoggle.jsx';
+
+>>>>>>> 3bd138d8b9166bf31ec01790d63cad819c170271
 
 function App(){
 // let name = "Akash";
@@ -43,8 +48,13 @@ function App(){
 
 // const[student,setstudent] = useState();
 
+<<<<<<< HEAD
 //   const [value, toggleValue] = usetoggle(true);
 // console.log("value..",value);
+=======
+  const [value, toggleValue] = usetoggle(true);
+console.log("value..",value);
+>>>>>>> 3bd138d8b9166bf31ec01790d63cad819c170271
 return (
   <>
  <div>
@@ -84,7 +94,11 @@ return (
    {/* <Student/> */}
    {/* <Checkbox/> */}
    
+<<<<<<< HEAD
   {/* <h1 className='color-red-500, text-center font-bold'>App jsx component</h1> */}
+=======
+  <h1 className='color-red-500, text-center font-bold'>App jsx component</h1>
+>>>>>>> 3bd138d8b9166bf31ec01790d63cad819c170271
      {/* <Button>Click Me</Button> */}
    
  
@@ -94,11 +108,17 @@ return (
  {/* <Hooks /> */}
  {/* <Use /> */}
  {/* <State /> */}
+<<<<<<< HEAD
  <Apps />
 
  {/* <h1>App jsx component</h1> */}
 
         {/* <button onClick={() => toggleValue()}>
+=======
+ <h1>App jsx component</h1>
+
+        <button onClick={() => toggleValue()}>
+>>>>>>> 3bd138d8b9166bf31ec01790d63cad819c170271
           Toggle Heading
         </button>
         <br />
@@ -115,7 +135,11 @@ return (
 
         <h1>Custom Hook</h1>
 
+<<<<<<< HEAD
         {value && <h2>Custom hook in React</h2>} */}
+=======
+        {value && <h2>Custom hook in React</h2>}
+>>>>>>> 3bd138d8b9166bf31ec01790d63cad819c170271
  
   {/* <h4>{userkey}</h4> */}
  </div>
